@@ -12,7 +12,6 @@ def add_todo():
 
 
 stl.title("My Todo App")
-stl.subheader("This is my todo app.")
 stl.write("This app is to increase you productivity.")
 
 for index, todo in enumerate(todos):
