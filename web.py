@@ -12,7 +12,8 @@ def add_todo():
 
 
 stl.title("My Todo App")
-stl.write("This app is to increase you productivity.")
+stl.write("Please type your to-do and press <b>Enter</b>.", unsafe_allow_html=True)
+stl.write("To complete a to-do please check the <b>Checkbox</b> associated to that to-do.", unsafe_allow_html=True)
 
 for index, todo in enumerate(todos):
    checkbox = stl.checkbox(todo, key=todo)
