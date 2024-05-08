@@ -3,6 +3,7 @@ import functions
 
 todos = functions.get_todos()
 
+stl.set_page_config(layout="wide")
 
 def add_todo():
     new_todo = stl.session_state["new_todo"] + "\n"
